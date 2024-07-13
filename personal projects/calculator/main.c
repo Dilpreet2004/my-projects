@@ -3,6 +3,7 @@
 
 int main()
 {
+    //to get input from user
     float val1,val2;
     char op;
     printf("enter the first number :");
@@ -11,7 +12,8 @@ int main()
     scanf(" %c",&op);
     printf("enter the second number :");
     scanf("%f",&val2);
-
+    
+    //switch statements to perform desired operations
     switch(op){
         case '+':
             printf("%f",val1+val2);
