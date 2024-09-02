@@ -5,6 +5,7 @@
 #include <time.h>
 
 // Function to implement the game
+//1 for user,0 for robot and -1 for tie
 int game(char you, char computer)
 {
 	// If both the user and computer
